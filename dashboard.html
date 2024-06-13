@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="font-family: 'Montserrat', sans-serif; margin: 0; padding: 0;">
+    <nav class="navbar" style="background-color: rgba(0, 0, 0, 0.5); padding: 1rem;">
+        <h1>
+            <a href="#" style="color: #fff; text-decoration: none;"><i class="fab fa-spotify"></i> Spotify</a>
+        </h1>
+        <ul style="list-style-type: none; margin: 0; padding: 0;">
+            <li style="display: inline;"><a href="#" style="color: #fff; text-decoration: none;">Discover</a></li>
+            <li style="display: inline;"><a href="#" style="color: #fff; text-decoration: none;">Playlists</a></li>
+            <li style="display: inline;"><a href="#" style="color: #fff; text-decoration: none;">Artists</a></li>
+            <li style="display: inline;"><a href="#" style="color: #fff; text-decoration: none;">Profile</a></li>
+            <li style="display: inline;"><a href="login.html" style="color: #fff; text-decoration: none;">Logout</a></li>
+        </ul>
+    </nav>
+    <section class="container" style="max-width: 1200px; margin: 2rem auto; padding: 0 1rem;">
+        <h1 class="large text-primary" style="color: #333; font-size: 3rem;">Dashboard</h1>
+        <p class="lead" style="color: #666; font-size: 1.5rem;"><i class="fas fa-user"></i> Welcome!</p>
+        <div class="dash-buttons" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+            <div class="search-bar" style="flex: 1; display: flex;">
+                <input type="text" placeholder="Search songs, artists, playlists..." style="flex: 1; padding: 0.5rem; border: 1px solid #ccc; border-radius: 5px 0 0 5px;">
+                <button style="background-color: #1db954; color: #fff; border: none; border-radius: 0 5px 5px 0; padding: 0.5rem 1rem; cursor: pointer;"><i class="fas fa-search"></i></button>
+            </div>
+            <div>
+                <a href="#" class="btn" style="background-color: #1db954; color: #fff; text-decoration: none; padding: 0.8rem 1.5rem; border-radius: 5px; font-size: 1.2rem; margin-right: 1rem; cursor: pointer;"><i class="fas fa-plus"></i> Create Playlist</a>
+                <a href="#" class="btn" style="background-color: #1db954; color: #fff; text-decoration: none; padding: 0.8rem 1.5rem; border-radius: 5px; font-size: 1.2rem; cursor: pointer;"><i class="fas fa-heart"></i> Liked Songs</a>
+            </div>
+        </div>
+
+        <h2 class="my-2" style="color: #333; font-size: 2rem;">Your Playlists</h2>
+        <div class="playlists" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); grid-gap: 1rem;">
+            <div class="playlist" style="background-color: #fff; padding: 1rem; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+                <img src="rockMusic.png" alt="Playlist 1" style="width: 100%; border-radius: 5px;">
+                <h3 style="margin-top: 0.5rem; font-size: 1.2rem;">Rock Classics</h3>
+            </div>
+            <div class="playlist" style="background-color: #fff; padding: 1rem; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+                <img src="popMusic.png" alt="Playlist 2" style="width: 100%; border-radius: 5px;">
+                <h3 style="margin-top: 0.5rem; font-size: 1.2rem;">Pop Hits</h3>
+            </div>
+            <!-- Add more playlist divs as needed -->
+        </div>
+    </section>
+</body>
+</html>

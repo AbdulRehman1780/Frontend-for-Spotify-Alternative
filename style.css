@@ -1,0 +1,93 @@
+/* Global styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navbar styles */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Landing section styles */
+.landing {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.landing h1 {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.landing p {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.buttons .btn {
+    margin-right: 1rem;
+}
+
+.buttons .btn-primary {
+    background-color: #1db954;
+    border-color: #1db954;
+}
+
+.buttons .btn-primary:hover {
+    background-color: #169c3e;
+}
+
+.buttons .btn {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.buttons .btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

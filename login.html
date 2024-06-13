@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="font-family: 'Montserrat', sans-serif; margin: 0; padding: 0;">
+    <nav class="navbar" style="background-color: rgba(0, 0, 0, 0.5); padding: 1rem;">
+        <h1>
+            <a href="#" style="color: #fff; text-decoration: none;"><i class="fab fa-spotify"></i> Spotify</a>
+        </h1>
+        <ul style="list-style-type: none; margin: 0; padding: 0;">
+            <li style="display: inline;"><a href="#" style="color: #fff; text-decoration: none;">Premium</a></li>
+            <li style="display: inline;"><a href="#" style="color: #fff; text-decoration: none;">Help</a></li>
+            <li style="display: inline;"><a href="register.html" style="color: #fff; text-decoration: none;">Sign Up</a></li>
+        </ul>
+    </nav>
+    <section class="container" style="max-width: 1200px; margin: 2rem auto; padding: 0 1rem;">
+        <!-- Alert -->
+        <!-- Spotify might not display this alert. I've left it here just in case you want to use it for other purposes. -->
+
+        <h1 class="large text-primary" style="color: #333; font-size: 3rem;">Log In</h1>
+        <p class="lead" style="color: #666; font-size: 1.5rem;"><i class="fas fa-sign-in-alt"></i> Sign Into Your Spotify Account</p>
+        <form action="dashboard.html" class="form">
+            <div class="form-group" style="margin-bottom: 1rem;">
+                <input type="email" placeholder="Email Address" style="padding: 0.5rem; width: 100%; border: 1px solid #ccc; border-radius: 5px;" required />
+            </div>
+            <div class="form-group" style="margin-bottom: 1rem;">
+                <input type="password" placeholder="Password" minlength="8" style="padding: 0.5rem; width: 100%; border: 1px solid #ccc; border-radius: 5px;" required />
+            </div>
+            <input type="submit" value="Log In" class="btn btn-primary" style="background-color: #1db954; border-color: #1db954; color: #fff; padding: 0.8rem 1.5rem; border-radius: 5px; font-size: 1.2rem; cursor: pointer;" />
+        </form>
+        <p class="my-1" style="color: #666; font-size: 1.2rem;">Don't have an account? <a href="register.html" style="color: #1db954;">Sign up</a></p>
+    </section>
+</body>
+</html>
